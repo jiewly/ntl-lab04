@@ -23,13 +23,13 @@ namespace lab05
             Console.WriteLine(who2);
 
             //สร้างclass หมาขึ้นมา2ตัว
-            var dog_1 = new Dog("siberian husky"); //var dog =สร้างตัวเเปรเเคทเรียกใช้งานclass dog เเละส่ง property สปียชีร์=siberian husky
+            var dog_1 = new Dog("siberian husky"); //var dog =สร้างตัวเเปรเรียกใช้งานclass dog เเละส่ง property สปียชีร์=siberian husky
             var who3 = dog_1.Whoami();//สร้างตัวเเปรชื่อว่า who3 เพื่อเก็บค่า จากmedthod Whoami
             var dis3 = dog_1.DisplaySpecies();//สร้างตัวเเปรชื่อว่า dis3 เพื่อเก็บค่า จากmedthod DisplaySpecies
             Console.WriteLine(dis3);
             Console.WriteLine(who3);
 
-            var dog_2 = new Dog("pit bule"); //var dog =สร้างตัวเเปรเเคทเรียกใช้งานclass dog เเละส่ง property สปียชีร์=pit bule
+            var dog_2 = new Dog("pit bule"); //var dog =สร้างตัวเเปรเรียกใช้งานclass dog เเละส่ง property สปียชีร์=pit bule
             var who4 = dog_2.Whoami();//สร้างตัวเเปรชื่อว่า who4 เพื่อเก็บค่า จากmedthod Whoami
             var dis4 = dog_2.DisplaySpecies();//สร้างตัวเเปรชื่อว่า dis4 เพื่อเก็บค่า จากmedthod DisplaySpecies
             Console.WriteLine(dis4);
